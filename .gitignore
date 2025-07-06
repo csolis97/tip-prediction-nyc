@@ -1,0 +1,28 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+# Datos de salida
+data/raw/
+data/processed/
+# Logs y archivos temporales
+*.log
+*.tmp
+*.bak
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+# Otros
+*.swp
