@@ -4,7 +4,10 @@ from sklearn.metrics import confusion_matrix, f1_score
 import numpy as np
 
 def plot_confusion_matrix(y_true, y_pred, title="Matriz de Confusión"):
-    """Genera una matriz de confusión con Seaborn."""
+    """
+    Genera una matriz de confusión con Seaborn.
+    // Generates a confusion matrix using Seaborn.
+    """
     cm = confusion_matrix(y_true, y_pred)
     plt.figure(figsize=(5, 4))
     sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", cbar=False)
@@ -15,7 +18,10 @@ def plot_confusion_matrix(y_true, y_pred, title="Matriz de Confusión"):
     plt.show()
 
 def plot_probability_histogram(model, X, y_true):
-    """Muestra histogramas de probabilidad por clase verdadera."""
+    """
+    Muestra histogramas de probabilidad por clase verdadera
+    // Displays probability histograms by true class.
+    """
     probas = model.predict_proba(X)[:, 1]
     
     plt.figure(figsize=(6, 4))
@@ -29,7 +35,10 @@ def plot_probability_histogram(model, X, y_true):
     plt.show()
 
 def plot_feature_importances(model, feature_names):
-    """Muestra un gráfico de barras con las importancias de las características."""
+    """
+    Muestra un gráfico de barras con las importancias de las características.
+    // Displays a bar chart of feature importances.
+    """
     importances = model.feature_importances_
     indices = np.argsort(importances)[::-1]
 
