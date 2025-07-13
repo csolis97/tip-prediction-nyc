@@ -9,7 +9,6 @@
 - Develop a data science project following a structured workflow based on the Cookiecutter Data Science methodology.
 - Build a machine learning model to predict taxi trips in New York City where the tip was greater than 20% of the fare.  
 
-
 ---
 
 ## Estructura del Proyecto // Project Structure
@@ -29,9 +28,27 @@ tip-prediction-nyc/
 └── README.md              <- This archive
 └── .gitignore             <- Files ignored by Git
 ```
+---
 
+## Configuración del entorno // Environment Setup
+
+1. Clona el repositorio // Clone the repository
+```bash
+git clone https://github.com/tu-usuario/tip-prediction-nyc.git
+cd tip-prediction-nyc
+```
+2. Crea y activa el entorno virtual // Create and activate the enviroment
+```
+python -m venv venv
+venv\Scripts\activate.bat
+```
+3. Instala dependencias // Install requirements
+```
+pip install -r requirements.txt
+```
+---
 ## Uso // Usage
-
+                     
 1. Descarga los datos desde la fuente oficial // Download data from the official source  
    o usa la función  // or use the function
    `download_data(url, output_filename)` <- `src/data/dataset.py`. 
