@@ -70,7 +70,7 @@ pip install -r requirements.txt
 
 5. Genera visualizaciones // Generate visualization
    ```python
-   from visualization.plots import plot_confusion_matrix, plot_f1_vs_threshold, ...
+   from visualization.plots import plot_confusion_matrix ...
    ```
 
 ---
