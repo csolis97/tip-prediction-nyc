@@ -79,10 +79,10 @@ pip install -r requirements.txt
 [**ES** ]
 Los datos provienen de la NYC Taxi and Limousine Commission (TLC) y corresponden a los taxis amarillos.
 
-El modelo es un Random Forest Classifier entrenado con los datos de enero de 2020. Luego se evalúa durante tres meses, utilizando F1-score como métrica principal de evaluación.
+El modelo es un Random Forest Classifier entrenado con los datos de enero de 2020. Luego se evalúa durante varios meses, utilizando F1-score como métrica principal de evaluación.
 
 [ **EN** ]
 
 The data come from the NYC Taxi and Limousine Commission (TLC) and relate to yellow taxi.
 
-The model is a Random Forest Classifier trained on January 2020 data and then evaluated over three months  using F1-score as the main metric.
+The model is a Random Forest Classifier trained on January 2020 data and then evaluated over several months  using F1-score as the main metric.
